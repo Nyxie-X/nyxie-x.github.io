@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(50, 50, 50);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 54, 201);
+    border-radius: 10px;
+    border: 0.2em solid rgb(50, 50, 50);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(171, 38, 135);
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    border-bottom: 2px solid rgb(50, 50, 50);
+    font-family: 'Anton', sans-serif;
+    font-size: 64px;
+    color: rgb(46, 161, 255);
+}
+
+body {
+    background: rgb(50, 50, 50);
+    color: rgb(150, 150, 150);
+    margin: 0 auto;
+}
